@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con
+{
+    padding: 100px 0 0 0;
+}
+
+.nv
+{
+    height: 50px;
+    padding: 5px;
+    background-color: #313a41;
+}
+
+.head
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Head.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.brand
+{
+    padding: 25% 0;
+}
+
+.Logo
+{
+    width:130px;
+    height: 130px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+h1
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 500%;
+    color: #fdfdfd;
+    display: inline-block;
+    padding-left: 15%;
+}
+
+h2
+{
+    text-align: center;
+    font-family: "Secular One", sans-serif;
+    text-decoration: underline;
+    font-size: 300%;
+}
+
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    float: left;
+    
+}
+
+.menu
+{
+    background-color: #f7f7f7
+    
+}
