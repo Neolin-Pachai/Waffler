@@ -9,14 +9,14 @@ html, body { overflow-x: hidden; }
 
 .con
 {
-    padding: 100px 0 0 0;
+    padding: 80px 0 0 0;
 }
 
 .nv
 {
     height: 50px;
     padding: 5px;
-    background-color: #313a41;
+    background-color: #000000;
 }
 
 .head
@@ -80,14 +80,16 @@ ul li
 
 .menu
 {
-    background-color: #f7f7f7
+    background-color: #ffffff
 }
 
 .menu-pics
 {
     width: 100%;
     height: 300px;
-    padding-bottom: 5%;
+    margin-bottom: 6%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu-items
@@ -95,6 +97,7 @@ ul li
     padding: 0 7%;
     border: 1px solid black;
     margin: 10px;
+    background-color: #f7f7f7;
 }
 
 h4
@@ -110,6 +113,44 @@ h5
     padding-bottom: 20px;
 }
 
+.nav-link
+{
+    color: whitesmoke;
+}
+
+.nav-link:link
+{
+    color: whitesmoke;
+}
+
+.nav-link:visited
+{
+    color: whitesmoke;
+}
+
+.nav-link:hover
+{
+    color: goldenrod;
+}
+
+.nav-link:active
+{
+    color: darkgoldenrod;
+}
+
+.navbar-brand
+{
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+.navbar-brand:hover
+{
+    color: whitesmoke;
+}
+
 .item-desc
 {
     padding-bottom: 3px;
@@ -119,3 +160,638 @@ h5
 {
     padding-bottom: 3px;
 }
+
+ion-icon
+{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    text-align: center;
+}
+
+ion-icon:hover
+{
+    color: darkgoldenrod;
+}
+
+ion-icon:active
+{
+    color: darkgoldenrod;
+}
+
+#mocha
+{
+    margin-bottom: 3%;
+}
+
+.ft
+{
+    color: black; text-decoration: none
+}
+
+#eggs-break
+{
+    display: inline-block; 
+    width:326px;
+}
+
+#w-d-break
+{
+    display: inline-block; width:175px;
+}
+
+#w-c-break
+{
+    display: inline-block; width:215px;
+    
+}
+
+#m-b-break
+{
+    display: inline-block; width:170px
+}
+
+#chick-mayo-sand
+{
+    display: inline-block; width:310px;
+}
+
+#bacon-egg-sand
+{
+    display: inline-block; width:300px;
+}
+
+#ham-cheese-sand
+{
+    display: inline-block; width:292px;
+}
+
+#ham-cheese-tom
+{
+    display: inline-block; width:216px;
+}
+
+#bacon-banana
+{
+    display: inline-block; width:262px;
+}
+
+#bacon-egg-cheese
+{
+    display: inline-block; width:233px;
+}
+
+#w-chicken
+{
+    display: inline-block; width:176px;
+}
+
+#plain
+{
+    display: inline-block; width:325px;
+}
+
+#cheese
+{
+    display: inline-block; width:313px;
+}
+
+#bacon-cheese-burg
+{
+    display: inline-block; width:211px;
+}
+
+#mushroom-sauce
+{
+    display: inline-block; width:217px;
+}
+
+#butter-chick
+{
+   display: inline-block; width:301px; 
+}
+
+#haloumi
+{
+    display: inline-block; width:130px;
+}
+
+#with-cream
+{
+    display: inline-block; width:268px;
+}
+
+#plain-w
+{
+    display: inline-block; width:326px;
+}
+
+#choc-m-w
+{
+    display: inline-block; width:253px;
+}
+
+#peppermint
+{
+    display: inline-block; width:221px;
+}
+
+#oreo
+{
+    display: inline-block; width:324px;
+}
+
+#banoffee
+{
+    display: inline-block; width:286px;
+}
+
+#coffee
+{
+    display: inline-block; width:333px;
+}
+
+#five-roses
+{
+    display: inline-block; width:323px;
+}
+
+#rooibos
+{
+    display: inline-block; width:337px;
+}
+
+#earl-grey
+{
+    display: inline-block; width:322px;
+}
+
+#chamomile
+{
+    display: inline-block; width:307px;
+}
+
+#americano
+{
+    display: inline-block; width:341px;
+}
+
+#cap-froth
+{
+    display: inline-block; width:278px
+}
+
+#cap-cream
+{
+    display: inline-block; width:274px;
+}
+
+#red-cap
+{
+    display: inline-block; width:299px;
+}
+
+#hot-choc
+{
+    display: inline-block; width:306px;
+}
+
+#white-hot-choc
+{
+    display: inline-block; width:250px;
+}
+
+#chai-latte
+{
+    display: inline-block; width:349px;
+}
+
+#cafe-latte
+{
+    display: inline-block; width:349px;
+}
+
+#flav-latte
+{
+    display: inline-block; width:287px;
+}
+
+#cans
+{
+    display: inline-block; width:395px;
+}
+
+#valpre
+{
+   display: inline-block; width:375px; 
+}
+
+#valpre-spark
+{
+    display: inline-block; width:284px;
+}
+
+#house-water
+{
+    display: inline-block; width:278px;
+}
+
+#ice-tea
+{
+    display: inline-block; width:375px;
+}
+
+#tigers
+{
+    display: inline-block; width:379px;
+}
+
+#fruit-juices
+{
+    display: inline-block; width:332px;
+}
+
+#milkshakes
+{
+    display: inline-block; width:330px;
+}
+
+#mixed-berry-smoothie
+{
+    display: inline-block; width:236px;
+}
+
+#granadilla-crush
+{
+    display: inline-block; width:272px;
+}
+
+#lemon-berry
+{
+    display: inline-block; width:319px;
+}
+
+#lemon-mango
+{
+    display: inline-block; width:262px;
+}
+
+#apple-freeze
+{
+    display: inline-block; width:320px;
+}
+
+#mochachino
+{
+    display: inline-block; width:191px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 180%;
+        margin-left: -40%;
+    }
+
+    h1{
+        font-size: 300%;
+        padding-left: 15%;
+    }
+
+    .nv
+    {
+        display: none
+    }
+
+    .Logo
+    {
+        width:100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 35%;
+        margin-bottom: 40px;
+    }
+
+    h2
+    {
+        text-align: center;
+        font-family: "Secular One", sans-serif;
+        text-decoration: underline;
+        font-size: 200%;
+        margin-bottom: 30px;
+    }
+
+    .head
+    {
+        height: 60vh;
+    }
+
+    .menu-pics
+    {
+        width: 80%;
+        height: 250px;
+        margin: 0 10% 6% 10%;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .menu-items
+    {
+        padding: 0 5%;
+        border: 2px solid black;
+        margin: 10px 20px 10px 20px;
+        background-color: #f7f7f7;
+    }
+
+    .foot
+    {
+        margin-top: -1.5%;
+        background-color: #f2f2f2;
+    }
+
+    ion-icon
+    {
+        font-size: 20px;
+        color: black;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .ft
+    {
+        color: black;
+    }
+    
+    #eggs-break
+    {
+        width:153px;
+    }
+    
+
+#w-d-break
+{
+    display: inline-block; width:5px;
+}
+
+#w-c-break
+{
+    display: inline-block; width:44px;
+    
+}
+
+#m-b-break
+{
+    display: inline-block; width:91px
+}
+
+#chick-mayo-sand
+{
+    display: inline-block; width:141px;
+}
+
+#bacon-egg-sand
+{
+    display: inline-block; width:132px;
+}
+
+#ham-cheese-sand
+{
+    display: inline-block; width:124px;
+}
+
+#ham-cheese-tom
+{
+    display: inline-block; width:49px;
+}
+
+#bacon-banana
+{
+    display: inline-block; width:95px;
+}
+
+#bacon-egg-cheese
+{
+    display: inline-block; width:66px;
+}
+
+#w-chicken
+{
+    display: inline-block; width:5px;
+}
+
+#plain
+{
+    display: inline-block; width:153px;
+}
+
+#cheese
+{
+    display: inline-block; width:140px;
+}
+
+#bacon-cheese-burg
+{
+    display: inline-block; width:39px;
+}
+
+#mushroom-sauce
+{
+    display: inline-block; width:44px;
+}
+
+#butter-chick
+{
+   display: inline-block; width:128px; 
+}
+
+#haloumi
+{
+    display: inline-block; width:10px;
+}
+
+#with-cream
+{
+    display: inline-block; width:97px;
+}
+
+#plain-w
+{
+    display: inline-block; width:154px;
+}
+
+#choc-m-w
+{
+    display: inline-block; width:82px;
+}
+
+#peppermint
+{
+    display: inline-block; width:52px;
+}
+
+#oreo
+{
+    display: inline-block; width:154px;
+}
+
+#banoffee
+{
+    display: inline-block; width:115px;
+}
+
+#coffee
+{
+    display: inline-block; width:149px;
+}
+
+#five-roses
+{
+    display: inline-block; width:139px;
+}
+
+#rooibos
+{
+    display: inline-block; width:154px;
+}
+
+#earl-grey
+{
+    display: inline-block; width:140px;
+}
+
+#chamomile
+{
+    display: inline-block; width:124px;
+}
+
+#americano
+{
+    display: inline-block; width:158px;
+}
+
+#cap-froth
+{
+    display: inline-block; width:95px;
+}
+
+#cap-cream
+{
+    display: inline-block; width:91px;
+}
+
+#red-cap
+{
+    display: inline-block; width:117px;
+}
+
+#hot-choc
+{
+    display: inline-block; width:123px;
+}
+
+#white-hot-choc
+{
+    display: inline-block; width:68px;
+}
+
+#chai-latte
+{
+    display: inline-block; width:168px;
+}
+
+#cafe-latte
+{
+    display: inline-block; width:167px;
+}
+
+#flav-latte
+{
+    display: inline-block; width:105px;
+}
+
+#cans
+{
+    display: inline-block; width:395px;
+}
+
+#valpre
+{
+   display: inline-block; width:375px; 
+}
+
+#valpre-spark
+{
+    display: inline-block; width:284px;
+}
+
+#house-water
+{
+    display: inline-block; width:278px;
+}
+
+#ice-tea
+{
+    display: inline-block; width:375px;
+}
+
+#tigers
+{
+    display: inline-block; width:379px;
+}
+
+#fruit-juices
+{
+    display: inline-block; width:332px;
+}
+
+#milkshakes
+{
+    display: inline-block; width:330px;
+}
+
+#mixed-berry-smoothie
+{
+    display: inline-block; width:236px;
+}
+
+#granadilla-crush
+{
+    display: inline-block; width:272px;
+}
+
+#lemon-berry
+{
+    display: inline-block; width:319px;
+}
+
+#lemon-mango
+{
+    display: inline-block; width:262px;
+}
+
+#apple-freeze
+{
+    display: inline-block; width:320px;
+}
+
+#mochachino
+{
+    display: inline-block; width:191px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

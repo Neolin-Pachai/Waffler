@@ -28,11 +28,11 @@
                 <a class="navbar-brand" href="#">The Waffler</a>
                 <ul class="choices">
                     <li><a href="#" class="nav-link">Home</a></li>
-                    <li><a href="#" class="nav-link">Breakfast</a></li>
-                    <li><a href="#" class="nav-link">Sandwiches</a></li>
-                    <li><a href="#" class="nav-link">Specials</a></li>
-                    <li><a href="#" class="nav-link">Waffles</a></li>
-                    <li><a href="#" class="nav-link">Beverages</a></li>
+                    <li><a href="#breakfast" class="nav-link">Breakfast</a></li>
+                    <li><a href="#sandwiches" class="nav-link">Sandwiches</a></li>
+                    <li><a href="#special" class="nav-link">Specials</a></li>
+                    <li><a href="#waffles" class="nav-link">Waffles</a></li>
+                    <li><a href="#hot" class="nav-link">Beverages</a></li>
                 </ul>
             </nav>
         </div>
@@ -51,66 +51,115 @@
             <div class="row">
 
                 <div class="col menu-items">
-                    <h3>Breakfast</h3>
+                    <h3 id="breakfast">Breakfast</h3>
                     <img src="Images/Breakfast.jpg" alt="Breakfast" class="menu-pics">
-                    <h4 >EGG ON TOAST<span style="display: inline-block; width:326px"></span>R22.00</h4>
+                    <h4 >EGG ON TOAST<span id="eggs-break"></span>R22.00</h4>
                     <p class="lead item-desc">Two fried eggs on a slice of toast.</p>
-                    <h4 >WAFFLER DOUBLE UP BREAKFAST <span style="display: inline-block; width:175px"></span> R55.00</h4>
+                    <h4 >WAFFLER DOUBLE UP BREAKFAST <span id="w-d-break"></span> R55.00</h4>
                     <p class="lead item-desc">Two fried eggs, Two rashers bacon, A russian, grilled tomato and toast.</p>
-                    <h4 >WAFFLER CHEFS BREAKFAST <span style="display: inline-block; width:215px"></span> R68.90</h4>
+                    <h4 >WAFFLER CHEFS BREAKFAST <span id="w-c-break"></span> R68.90</h4>
                     <p class="lead item-desc">Cripsy Belgian waffle topped with scrambled eggs, 3 rashers back bacon, BBQ Mushrooms and tomato.</p>
-                    <h4 >MIXED BERRY WAFFLE BREAKFAST <span style="display: inline-block; width:170px"></span> R61.90</h4>
+                    <h4 >MIXED BERRY WAFFLE <span id="m-b-break"></span> R61.90</h4>
                     <p class="lead item-desc">Cripsy Belgian waffle topped with greek yogurt, mixed berries and drizzled with with honey.</p>
                 </div>
 
                 <div class="col menu-items">
-                    <h3>Toasted Sandwiches</h3>
+                    <h3 id="sandwiches">Toasted Sandwiches</h3>
                     <img src="Images/Sandwiches.jpg" alt="Toasted Sandwiches" class="menu-pics">
                     <h5 >-CHOICE OF WHITE OR BROWN BREAD.<br> -SERVED WITH COLESLAW AND CHIPS.</h5>
-                    <h5 >CHICKEN MAYO <span style="display: inline-block; width:310px"></span> R45.50</h5>
-                    <h5 >BACON AND EGG <span style="display: inline-block; width:300px"></span> R46.50</h5>
-                    <h5 >HAM AND CHEESE <span style="display: inline-block; width:292px"></span> R46.50</h5>
-                    <h5 >HAM, CHEESE AND TOMATO  <span style="display: inline-block; width:216px"></span> R48.50</h5>
-                    <h5 >BACON AND BANANA <span style="display: inline-block; width:262px"></span> R48.50</h5>
-                    <h5 >BACON, EGG AND CHEESE <span style="display: inline-block; width:233px"></span> R50.00</h5>
+                    <h5 >CHICKEN MAYO <span id="chick-mayo-sand"></span> R45.50</h5>
+                    <h5 >BACON AND EGG <span id="bacon-egg-sand"></span> R46.50</h5>
+                    <h5 >HAM AND CHEESE <span id="ham-cheese-sand"></span> R46.50</h5>
+                    <h5 >HAM, CHEESE AND TOMATO  <span id="ham-cheese-tom"></span> R48.50</h5>
+                    <h5 >BACON AND BANANA <span id="bacon-banana"></span> R48.50</h5>
+                    <h5 >BACON, EGG AND CHEESE <span id="bacon-egg-cheese"></span> R50.00</h5>
                 </div>
             </div>
-            
+
             <div class="row">
 
                 <div class="col menu-items">
-                    <h3>House Special</h3>
+                    <h3 id="special">House Special</h3>
                     <img src="Images/Specials.jpg" alt="House Special" class="menu-pics">
-                    <h4 >WAFFLESHIP CHICKEN SANDWICH<span style="display: inline-block; width:176px"></span>R67.50</h4>
+                    <h4 >WAFFLESHIP CHICKEN SANDWICH<span id=w-chicken></span>R67.50</h4>
                     <p class="lead item-desc">Chicken strips, diced baon, avo, feta, tomato, spring onion and dried cranberries tossed with fresh greens.</p>
-                    <h4 >PLAIN BURGER<span style="display: inline-block; width:325px"></span> R64.90</h4>
-                    <h4 >CHEESE BURGER<span style="display: inline-block; width:313px"></span> R68.90</h4>
-                    <h4 >BACON AND CHEESE BURGER <span style="display: inline-block; width:211px"></span> R72.90</h4>
-                    <h5 >MUSHROOM SAUCE BURGER <span style="display: inline-block; width:217px"></span> R72.90</h5>
-                    <h4 >BUTTER CHICKEN <span style="display: inline-block; width:301px"></span> R78.90</h4>
+                    <h4 >PLAIN BURGER<span id="plain"></span> R64.90</h4>
+                    <h4 >CHEESE BURGER<span id="cheese"></span> R68.90</h4>
+                    <h4 >BACON AND CHEESE BURGER <span id="bacon-cheese-burg"></span> R72.90</h4>
+                    <h5 >MUSHROOM SAUCE BURGER <span id="mushroom-sauce"></span> R72.90</h5>
+                    <h4 >BUTTER CHICKEN <span id="butter-chick"></span> R78.90</h4>
                     <p class="lead item-desc">Chicken delicately simmered in a rich, creamy masala sauce with butter, Served with sambals and banana slices.</p>
-                    <h4 >HALOUMI, AVO AND CHICKEN TORTILLA <span style="display: inline-block; width:130px"></span> R68.90</h4>
+                    <h4 >HALOUMI, AVO AND CHICKEN TORTILLA <span id=haloumi></span> R68.90</h4>
                     <p class="lead item-desc">Chicken strips with avo and fried haloumi infused with a delicious dressing, served with a side of salad.</p>
                 </div>
                 <div class="col menu-items">
-                    <h3>Toasted Sandwiches</h3>
-                    <img src="Images/Sandwiches.jpg" alt="Toasted Sandwiches" class="menu-pics">
+                    <h3 id="waffles">Waffles</h3>
+                    <img src="Images/Waffle.jpg" alt="Waffles" class="menu-pics">
                     <h5 >-SERVED WITH YOUR CHOICE OF CREAM, ICE-CREAM OR NEITHER.</h5>
-                    <h4 >PLAIN WAFFLE<span style="display: inline-block; width:326px"></span>R25.90</h4>
-                    <p class="waffle-ice">(with cream/ice-cream)<span style="display: inline-block; width:54%"></span>R35.90</p>
-                    <h4 >CHOC-MOUSSE WAFFLE<span style="display: inline-block; width:253px"></span> R36.90</h4>
-                    <p class="waffle-ice">(with cream/ice-cream)<span style="display: inline-block; width:268px"></span>R51.90</p>
-                    <h4 >PEPPERMINT CRISP WAFFLE<span style="display: inline-block; width:221px"></span> R36.90</h4>
-                    <p class="waffle-ice">(with cream/ice-cream)<span style="display: inline-block; width:268px"></span>R52.90</p>
-                    <h4 >OREO WAFFLE<span style="display: inline-block; width:324px"></span> R35.90</h4>
-                    <p class="waffle-ice">(with cream/ice-cream)<span style="display: inline-block; width:268px"></span>R48.90</p>
-                    <h4 >BANOFFEE WAFFLE<span style="display: inline-block; width:286px"></span> R36.90</h4>
-                    <p class="waffle-ice">(with cream/ice-cream)<span style="display: inline-block; width:268px"></span>R53.90</p>
-                   
+                    <h4 >PLAIN WAFFLE<span id="plain-w"></span>R25.90</h4>
+                    <p class="waffle-ice">(with cream/ice-cream)<span id=with-cream></span>R35.90</p>
+                    <h4 >CHOC-MOUSSE WAFFLE<span id="choc-m-w"></span> R36.90</h4>
+                    <p class="waffle-ice">(with cream/ice-cream)<span id=with-cream></span>R51.90</p>
+                    <h4 >PEPPERMINT CRISP WAFFLE<span id="peppermint"></span> R36.90</h4>
+                    <p class="waffle-ice">(with cream/ice-cream)<span id=with-cream></span>R52.90</p>
+                    <h4 >OREO WAFFLE<span id="oreo"></span> R35.90</h4>
+                    <p class="waffle-ice">(with cream/ice-cream)<span id=with-cream></span>R48.90</p>
+                    <h4 >BANOFFEE WAFFLE<span id=banoffee></span> R36.90</h4>
+                    <p class="waffle-ice">(with cream/ice-cream)<span id=with-cream></span>R53.90</p>
                 </div>
-                
             </div>
-            
+
+            <div class="row">
+
+                <div class="col menu-items">
+                    <h3 id="hot">Hot Beverages</h3>
+                    <img src="Images/Coffee.jpg" alt="Hot Beverages" class="menu-pics">
+                    <h4 >FILTER COFFEE<span id=coffee></span>R16.90</h4>
+                    <h4 >FIVE ROSES TEA<span id=five-roses></span> R16.90</h4>
+                    <h4 >ROOIBOS TEA<span id=rooibos></span> R16.90</h4>
+                    <h4 >EARL GREY TEA <span id=earl-grey></span> R19.90</h4>
+                    <h4 >CHAMOMILE TEA <span id=chamomile></span> R19.90</h4>
+                    <h4 >AMERICANO <span id=americano></span> R20.00</h4>
+                    <h4 >CAPPUCCINO FROTH <span id=cap-froth></span> R26.90</h4>
+                    <h4 >CAPPUCCINO CREAM <span id=cap-cream></span> R29.90</h4>
+                    <h4 >RED CAPPUCCINO <span id=red-cap></span> R29.90</h4>
+                    <h4 >HOT CHOCOLATE <span id=hot-choc></span> R24.90</h4>
+                    <h4 >WHITE HOT CHOCOLATE <span id=white-hot-choc></span> R29.90</h4>
+                    <h4 >CHAI LATTE <span id=chai-latte></span> R29.90</h4>
+                    <h4 >CAFE LATTE <span id=cafe-latte></span> R27.90</h4>
+                    <h4 >FLAVOURED LATTES <span id=flav-latte></span> R30.00</h4>
+                    <p class="waffle-ice">Cinnamon, Hazelnut and Vanilla.</p>
+                </div>
+                <div class="col menu-items">
+                    <h3 id="cold">Cold Beverages</h3>
+                    <img src="Images/Milkshake.jpg" alt="Cold Beverages" class="menu-pics">
+                    <h4 >CANS<span id=cans></span>R16.90</h4>
+                    <h4 >VALPRE<span id=valpre></span> R15.90</h4>
+                    <h4 >VALPRE SPARKLING<span id=valpre-spark></span> R36.90</h4>
+                    <h4 >HOUSE STILL WATER<span id=house-water></span> R35.90</h4>
+                    <h4 >ICE TEA<span id=ice-tea></span> R36.90</h4>
+                    <h4 >TIGERS<span id=tigers></span> R36.90</h4>
+                    <h4 >FRUIT JUICES<span id=fruit-juices></span> R36.90</h4>
+                    <p class="waffle-ice">Orange, Mango and Cocktail.</p>
+                    <h4 >MILKSHAKES<span id=milkshakes></span> R36.90</h4>
+                    <p class="waffle-ice">Blueberry, Chocolate, Lime, Strawberry and Vanilla.</p>
+                    <h4 >MIXED BERRY SMOOTHIE<span id=mixed-berry-smoothie></span> R36.90</h4>
+                    <h4 >GRANADILLA CRUSH<span id=granadilla-crush></span> R36.90</h4>
+                    <h4 >LEMON BERRY<span id=lemon-berry></span> R36.90</h4>
+                    <h4 >LEMON MANGO MINT<span id=lemon-mango></span> R36.90</h4>
+                    <h4 >APPLE FREEZE<span id=apple-freeze></span> R36.90</h4>
+                    <h4 id="mocha">MOCHACHINO COFFEE FREEZE<span id=mochachino></span> R36.90</h4>
+                </div>
+            </div>
         </div>
+        <footer class="page-footer font-small foot">
+            <div class="footer-copyright text-center py-3 ft">© 2020 Copyright:
+                <a href="#" class="ft"> Waffler&trade;</a>
+                <a href="#"><ion-icon name="logo-facebook" class="facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram" class="instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter" class="twitter"></ion-icon></a>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     </body>
 </html>
